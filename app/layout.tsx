@@ -1,22 +1,6 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
 import './globals.css'
-
-const gratoFont = localFont({
-	src: [
-		{
-			path: './fonts/gratogrotesk-regular.otf',
-			weight: '400',
-			style: 'normal',
-		},
-		{
-			path: './fonts/gratogrotesk-bold.otf',
-			weight: '700',
-			style: 'normal',
-		},
-	],
-	variable: '--font-gratofont',
-})
+import { gratoFont } from './fonts'
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
