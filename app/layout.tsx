@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { gratoFont } from './fonts'
+import Header from './components/Header/Index'
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -14,7 +15,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${gratoFont.variable} antialiased`}>{children}</body>
+			<body className={`${gratoFont.variable} antialiased`}>
+				<div className='container'>
+					<Header />
+					<main>{children}</main>
+				</div>
+			</body>
 		</html>
 	)
 }
