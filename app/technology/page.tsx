@@ -1,3 +1,4 @@
+import CompositionDecision from './CompositionDecision/Index'
 import Hero from './Hero/Index'
 import Principle from './Principle/Index'
 import WorkSchema from './WorkSchema/Index'
@@ -8,6 +9,7 @@ export default function Technology() {
 			<Hero />
 			<Principle />
 			<WorkSchema />
+			<CompositionDecision />
 		</>
 	)
 }
