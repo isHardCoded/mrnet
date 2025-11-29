@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { gratoFont } from './fonts'
+import { interFont } from './fonts'
 import Header from './components/Header/Index'
+import Footer from './components/Footer/Index'
 
 export const metadata: Metadata = {
 	title: 'MRNET',
@@ -15,10 +16,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${gratoFont.variable} antialiased`}>
+			<body className={`${interFont.variable} font-sans antialiased`}>
 				<div className='container'>
 					<Header />
 					<main>{children}</main>
+					<Footer />
 				</div>
 			</body>
 		</html>

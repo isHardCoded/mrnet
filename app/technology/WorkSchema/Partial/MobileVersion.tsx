@@ -13,7 +13,7 @@ export default function MobileVersion() {
 	return (
 		<div className='flex flex-col gap-10 mt-[30px] border border-[#00E4F099] rounded-xl p-6 items-center'>
 			<div className='mx-auto'>
-				<ClientSide />
+				<ClientSide isMobile={true} />
 			</div>
 
 			<div className='flex flex-col gap-30'>

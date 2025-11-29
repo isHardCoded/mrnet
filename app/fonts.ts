@@ -1,13 +1,7 @@
-import localFont from 'next/font/local'
+import { Inter } from 'next/font/google'
 
-export const gratoFont = localFont({
-	src: [
-		{
-			path: './fonts/gratogrotesk-regular.otf',
-			weight: '400',
-			style: 'normal',
-		},
-		{ path: './fonts/gratogrotesk-bold.otf', weight: '700', style: 'normal' },
-	],
-	variable: '--font-gratofont',
+export const interFont = Inter({
+	subsets: ['latin'],
+	variable: '--font-inter',
+	display: 'swap',
 })
