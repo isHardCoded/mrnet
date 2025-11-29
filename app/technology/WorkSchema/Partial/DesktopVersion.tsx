@@ -44,7 +44,7 @@ export default function DesktopVerison() {
 					<div className='w-px h-5 bg-[#00E4F0] mx-auto'></div>
 					<div className='flex justify-between w-[378px] bg-[#00E4F0] h-px'>
 						<div className='w-px h-3 bg-[#00E4F0]'></div>
-						<p className='text-[#00E4F0] pt-[8px]'>
+						<p className='text-[#00E4F0] pt-2'>
 							20 + 15 + 5 + 50 = 90 Мбит/с
 						</p>
 						<div className='w-px h-3 bg-[#00E4F0]'></div>
